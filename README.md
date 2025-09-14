@@ -47,7 +47,7 @@ The portfolio includes four main sections:
 
 ---
 
-## Highlighted Project: Evra Jewelry E-commerce Front-End
+## Highlighted Project: Verika Jewelry Store E-commerce Front-End
 
 - **Description:** A responsive front-end mockup of an e-commerce site for a jewelry brand.  
 - **Tech Stack:** React, CSS, JavaScript, Node.js (for future scalability)  
