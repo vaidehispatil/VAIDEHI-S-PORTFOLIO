@@ -1,6 +1,6 @@
 # Vaidehi Patil - Personal Portfolio & Projects
 
-[Live Portfolio](https://amruta-s-portfolio-ma8y.vercel.app/) | [Portfolio GitHub](https://github.com/KadamAmruta03/AMRUTA-S-PORTFOLIO)  
+[Live Portfolio]( https://vaidehi-s-portfolio.vercel.app/) | [Portfolio GitHub]([https://github.com/vaidehispatil/VAIDEHI-S-PORTFOLIO.git])
 
 Welcome to my personal portfolio and project showcase! This repository demonstrates my journey in **web development** and **tech projects**, highlighting my hands-on experience, skills, and academic achievements.
 
