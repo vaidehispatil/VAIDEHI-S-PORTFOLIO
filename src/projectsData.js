@@ -13,7 +13,7 @@ const projects = [
     type: "Course",
     domain: "FS",
     tech: ["React", "Node.js", "MySQL"],
-    link: "http://localhost:3001" // Replace with your FS App URL
+    link: "http://localhost:3001" 
   },
   {
     title: "Audio Visualizer",
@@ -32,5 +32,6 @@ const projects = [
     link: "#"
   }
 ];
+
 
 export default projects;
