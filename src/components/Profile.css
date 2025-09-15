@@ -1,0 +1,157 @@
+.profile-page-container {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  background-color: var(--primary-bg);
+  min-height: 70vh;
+}
+
+.profile-container {
+  background-color: var(--secondary-bg);
+  padding: 50px; /* Reduced padding for a more compact look */
+  border-radius: 12px;
+  box-shadow: 0 10px 30px var(--shadow-color);
+  max-width: 1200px;
+  width: 100%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px var(--shadow-color);
+}
+
+@media (min-width: 768px) {
+  .profile-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; /* Changed to center for vertical alignment */
+  }
+}
+
+/* Updated image container styling for smaller size */
+.profile-image-container {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid var(--accent-color);
+  box-shadow: 0 6px 10px var(--shadow-color);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 2rem; /* Add some space below the image on mobile */
+}
+
+.profile-image-container:hover {
+  transform: scale(1.05);
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info {
+  max-width: 900px;
+  width: 100%;
+}
+
+/* New flex container for the "About Me" and "Education" sections */
+.info-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .info-flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.profile-section {
+  flex: 1;
+}
+
+/* Adjust heading styles to be more consistent */
+.profile-heading,
+.profile-education-heading {
+  font-size: 1.8rem;
+  color: var(--heading-color);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.profile-intro {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+}
+
+.profile-skills-heading {
+  font-size: 1.8rem;
+  color: var(--accent-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profile-skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.profile-skills-list li {
+  background-color: var(--tertiary-bg);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.profile-skills-list li:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-bg);
+  transform: translateY(-2px);
+}
+
+.profile-education-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Reduced spacing between list items in the education section */
+.profile-education-list li {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.profile-education-list li p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .profile-page-container {
+    padding: 20px;
+  }
+
+  .profile-container {
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
