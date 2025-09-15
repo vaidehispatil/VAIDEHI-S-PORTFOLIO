@@ -9,7 +9,7 @@ const projectsData = [
     languages: ['React', 'CSS', 'JavaScript','Node.js'],
     domain: 'E-commerce',
     type: 'Frontend',
-    link: 'https://evra-jewlry.vercel.app/' 
+    link: 'https://vireka-jewelry-store.vercel.app/' 
   },
 
   {
@@ -104,3 +104,4 @@ const Portfolio = () => {
 
 
 export default Portfolio;
+
