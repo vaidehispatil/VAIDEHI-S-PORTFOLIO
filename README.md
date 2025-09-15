@@ -18,7 +18,7 @@ The portfolio includes four main sections:
    - Includes a **profile image container** with hover effects.  
 
 2. **Portfolio Page**  
-   - Showcases my projects, including the **Verika Jewelry Store E-commerce Front-End**.  
+   - Showcases my projects, including the **Verika Jewelry Store E-commerce Front-End**,etc.  
    - Projects can be filtered by **domain** or **type** (Frontend, Full-stack, E-commerce).  
    - Each project card displays **name, description, tech stack, and a live link**.  
    - Uses **React state (`useState`)** for dynamic filtering and interactive UI.  
