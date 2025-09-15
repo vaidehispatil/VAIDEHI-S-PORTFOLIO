@@ -24,7 +24,7 @@ The portfolio includes four main sections:
    - Uses **React state (`useState`)** for dynamic filtering and interactive UI.  
 
 3. **Blog Page**  
-   - A **single-page blog post** describing the Verika Jewelry Store project development journey.  
+   - A **single-page blog post** describing the Verika Jewelry Store project and Cozy Beans Shop development journey.  
    - Demonstrates **component-based structure**, CSS transitions, and typography styling.  
    - Highlights **front-end concepts**, dynamic routing, and UI challenges.  
 
