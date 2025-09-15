@@ -11,9 +11,19 @@ const projectsData = [
     type: 'Frontend',
     link: 'https://evra-jewlry.vercel.app/' 
   },
-  
+
   {
     id: 2,
+    name: 'Cozy Beans Coffee Shop Website',
+    description: 'A responsive and user-friendly website for a coffee shop featuring an interactive menu, customer testimonials, image gallery, and contact form using HTML, CSS, JavaScript, Bootstrap, and Swiper.js.',
+    languages: ['HTML', 'CSS', 'JavaScript'],
+    domain: 'Hospitality / Food & Beverage',
+    type: 'Frontend',
+    link: 'https://web-promming.vercel.app/'
+  },
+
+  {
+    id: 3,
     name: 'Portfolio Website',
     description: 'The personal website you are currently viewing, built to showcase skills and projects.',
     languages: ['React', 'HTML', 'CSS', 'JavaScript','Node.js'],
